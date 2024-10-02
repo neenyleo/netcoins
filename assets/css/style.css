@@ -60,10 +60,7 @@
   }
 }
 #welcome-section form {
- background-color: #fff;
-    border-radius: 1rem;
-    -webkit-box-shadow: 0 0.325rem 0.25rem rgb(0 0 0 / 25%);
-    box-shadow: 0 0.325rem 0.25rem rgb(0 0 0 / 25%);
+  padding: 20px;
     margin: 1rem auto 0;
     padding: 1.5rem;
     position: relative;
@@ -98,7 +95,7 @@
     font-family: Inter, sans-serif;
     line-height: 40px;
     z-index: 10;
-    background-color: transparent;
+    background-color: #e7e7e7;
     font-size: 16px;
     padding: 0px 10px 0px 0px;
     color: rgb(15, 21, 27);
@@ -117,7 +114,7 @@
   color: #d7e2f3;
 }
 #welcome-section form button {
-  width: 100%;
+    width: 65%;
     padding: 15px;
     font-size: 17px;
     font-family: graphik,-apple-system,BlinkMacSystemFont,segoe ui,roboto,oxygen,ubuntu,cantarell,fira sans,droid sans,helvetica neue,sans-serif;
@@ -125,16 +122,16 @@
     text-transform: inherit;
     letter-spacing: 1px;
     margin-top: 35px;
-    background-color: #e96543;
-    border-color: #e96543;
+    background-color: rgb(0, 79, 230);
+    border-color: rgb(0, 79, 230);
     min-height: 40px;
     font-size: 16px;
-    /*line-height: 48px;*/
     padding: 0;
     transition: none;
     color: #fff;
     font-weight: 600;
-    border-radius: 6px 0 6px 0;
+    border-radius: 6px;
+    margin: 0 auto;
 }
 .btnWhite{
   background-color: #fff !important;
@@ -500,10 +497,10 @@ input:focus{
     -webkit-box-align: center;
     align-items: center;
     color: rgb(15, 21, 27);
-    font-weight: 600;
-    font-size: 28px;
+    font-weight: 400;
+    font-size: 22px;
     line-height: 32px;
-    margin: 0px 0px 20px;
+    margin: 0px 0px 26px;
 }
 .cMEdVO {
     height: 12px;
@@ -514,4 +511,29 @@ input:focus{
 ::placeholder{
   color: #6f6f6f !important;
   font-size: 15px !important;
+}
+
+#checkbox{
+  width: 17px !important;
+  position: unset !important;
+}
+
+.form-check-inputonly{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.checkinput{
+  width: 10px !important;
+  height: 20px !important;
+  border: 1px solid rgb(199, 199, 199);
+}
+
+.form-check-label-forcheck{
+  font-size: 16px !important;
+    color: #666565 !important;
+    height: 20px !important;
+    margin-left: 10px !important;
 }
