@@ -32,7 +32,7 @@
 }
 
 #welcome-section {
-  background-color: #f8fafc;
+  background-color: #004cef;
   height: 100vh;
   /*max-height: 750px;*/
 }
@@ -67,6 +67,8 @@
     width: 25rem;
     z-index: 1;
     margin-top: 18px;
+    background-color: white;
+    border-radius: 8px;
 }
 #welcome-section form label {
     color: #38417e;
@@ -95,7 +97,7 @@
     font-family: Inter, sans-serif;
     line-height: 40px;
     z-index: 10;
-    background-color: #e7e7e7;
+    background-color: white;
     font-size: 16px;
     padding: 0px 10px 0px 0px;
     color: rgb(15, 21, 27);
@@ -114,7 +116,6 @@
   color: #d7e2f3;
 }
 #welcome-section form button {
-    width: 65%;
     padding: 15px;
     font-size: 17px;
     font-family: graphik,-apple-system,BlinkMacSystemFont,segoe ui,roboto,oxygen,ubuntu,cantarell,fira sans,droid sans,helvetica neue,sans-serif;
@@ -420,7 +421,7 @@
   }
 }
 body{
-      background-color: #f8fafc;
+      background-color: #004cef;
 }
 
 .navbar-brand{
