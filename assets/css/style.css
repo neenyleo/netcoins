@@ -32,7 +32,7 @@
 }
 
 #welcome-section {
-  background-color: #004cef;
+  background-color: #07072e;
   height: 100vh;
   /*max-height: 750px;*/
 }
@@ -66,12 +66,13 @@
     position: relative;
     width: 25rem;
     z-index: 1;
-    margin-top: 18px;
-    background-color: white;
+    margin-top: 27px;
+    background-color: #07072e;
     border-radius: 8px;
+    margin-top:70px !important;
 }
 #welcome-section form label {
-    color: #38417e;
+    color: white;
     display: inline-block;
     font-size: 13px;
     font-weight: 600;
@@ -104,6 +105,8 @@
     margin-left: 0px;
     border: 0;
     border-bottom: 1px solid rgba(0, 0, 0, 0.42); 
+    border-radius: 6px;
+    padding: 12px;
 }
 
 #welcome-section form input::-moz-placeholder {
@@ -421,7 +424,7 @@
   }
 }
 body{
-      background-color: #004cef;
+      background-color: #07072e;
 }
 
 .navbar-brand{
@@ -497,7 +500,7 @@ input:focus{
     display: flex;
     -webkit-box-align: center;
     align-items: center;
-    color: rgb(15, 21, 27);
+    color: white;
     font-weight: 400;
     font-size: 22px;
     line-height: 32px;
